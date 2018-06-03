@@ -4,7 +4,7 @@ test1 <- xmlRoot(test)
 print(test1[7])
 
 class(test1)
-test
+
 
 get_value_attr <- xpathApply(test, "//@The cpe-list element")
 xmlAttrs(test1)
